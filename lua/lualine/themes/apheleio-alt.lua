@@ -19,8 +19,8 @@ return {
 		a = { bg = p.serene, fg = p.ethereal, gui = "bold" },
 	},
 	inactive = {
-		a = { bg = p.base, fg = p.dim, gui = "bold" },
-		b = { bg = p.base, fg = p.dim },
-		c = { bg = p.base, fg = p.dim, gui = "italic" },
+		a = { bg = p.pure, fg = p.dim, gui = "bold" },
+		b = { bg = p.pure, fg = p.dim },
+		c = { bg = p.pure, fg = p.dim, gui = "italic" },
 	},
 }

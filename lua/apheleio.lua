@@ -568,8 +568,8 @@ local function set_highlights()
 		VimwikiHeader6 = { link = "markdownH6" },
 		VimwikiHeaderChar = { fg = palette.whimsy },
 		VimwikiLink = { link = "markdownUrl" },
-		VimwikiList = { fg = palette.focus },
-		VimwikiNoExistsLink = { fg = palette.blush },
+		VimwikiList = { fg = palette.focus ,
+		VimwikiNoExistsLink = { fg = palette.serene },
 
 		-- nvim-neorg/neorg
 		NeorgHeading1Prefix = { link = "markdownH1Delimiter" },
@@ -799,7 +799,7 @@ local function set_highlights()
 		Normal = { fg = palette.focus, bg = "NONE" },
 		NormalNC = { fg = palette.focus, bg = config.options.dim_inactive_windows and palette._nc or "NONE" },
 		Pmenu = { fg = palette.whimsy, bg = "NONE" },
-		PmenuKind = { fg = palette.aqua, bg = "NONE" },
+		PmenuKind = { fg = palette.ethereal, bg = "NONE" },
 		SignColumn = { fg = palette.focus, bg = "NONE" },
 		StatusLine = { fg = palette.whimsy, bg = "NONE" },
 		StatusLineNC = { fg = palette.dim, bg = "NONE" },

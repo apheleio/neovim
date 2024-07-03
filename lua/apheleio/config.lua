@@ -35,7 +35,7 @@ config.options = {
 	groups = {
 		border = "dim",
 		link = "harmony",
-		panel = "surface",
+		panel = "calm",
 
 		error = "harmony",
 		hint = "clarity",
